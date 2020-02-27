@@ -1,17 +1,35 @@
 import React, { useState } from 'react';
-
-import './styles.css';
+import { Link } from "react-router-dom";
+import { Form, Container } from "./styles";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
-  
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
   return (
     <div className="Login">
-      <form onSubmit={handleSubmit}>
-        
-      </form>
+      <Container>
+        <Form onSubmit={handleSubmit}>
+          {error && <p>{error}</p>}
+          <input
+            type="email"
+            placeholder="Endereço de e-mail"
+            onChange={e => setEmail(e.target.value)}
+          />
+          <input
+            type="password"
+            placeholder="Senha"
+            onChange={e => setPassword(e.target.value)}
+          />
+          <hr />
+          <Link to="/dashboard">Fazer login</Link>
+        </Form>
+      </Container>
     </div>
   );
 }
