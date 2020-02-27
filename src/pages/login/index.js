@@ -27,7 +27,7 @@ function Login() {
             onChange={e => setPassword(e.target.value)}
           />
           <hr />
-          <Link to="/dashboard">Fazer login</Link>
+          <Link to="/main">Fazer login</Link>
         </Form>
       </Container>
     </div>
