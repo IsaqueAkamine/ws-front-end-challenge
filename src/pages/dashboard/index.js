@@ -1,11 +1,18 @@
 import React from 'react';
 
-import './styles.css';
+import { Container } from "./styles";
+
+//remover header, adicionar na rota
+import Header from '../../components/header';
 
 function Dashboard() {
   return (
-    <div className="App">
+    <div>
+      <Header />
+
+      <Container>
         pagina dashboard
+      </Container>
     </div>
   );
 }
