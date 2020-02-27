@@ -1,20 +1,12 @@
 import React from 'react';
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import Routes from './routes';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Novo projeto
-      </header>
+      <Routes />
     </div>
   );
 }
