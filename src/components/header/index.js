@@ -5,7 +5,7 @@ import { Container } from "./styles";
 function Header() {
     return (
         <Container>
-            <MenuIcon style={{ color: "#fff" }} />
+            <MenuIcon style={{ color: "#fff", fontSize: 30 }} />
         </Container>
     );
 }

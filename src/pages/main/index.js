@@ -2,11 +2,13 @@ import React from 'react';
 import Header from '../../components/header';
 import SideNav from '../../components/sidenav';
 
+import { Container } from "./styles";
+
 export default function Main() {
     return (
-        <div>
+        <Container>
             <Header />
             <SideNav />
-        </div>
+        </Container>
     );
 }
