@@ -6,6 +6,7 @@ import UserCard from '../../components/usercard';
 import LocalCard from '../../components/localcard';
 import OpportunityCard from '../../components/opportunitycard';
 import LimitCard from '../../components/limitcard';
+import SalesCard from '../../components/salescard';
 
 export default function Main(props) {
     return (
@@ -18,6 +19,10 @@ export default function Main(props) {
                     </GroupCards>
                     <GroupCards>
                         <OpportunityCard />
+                        <LimitCard />
+                    </GroupCards>
+                    <GroupCards>
+                        <SalesCard />
                         <LimitCard />
                     </GroupCards>
                 </LeftSide>

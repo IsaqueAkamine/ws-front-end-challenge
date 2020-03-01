@@ -11,7 +11,7 @@ export const Body = styled.div`
   display: flex;
   flex: 1;
   flex-direction: row;
-  padding: 20px 15px;
+  padding: 10px 15px;
   // background-color: #af0;
 `;
 
@@ -22,7 +22,7 @@ export const LeftSide = styled.div`
   // background-color: '#0fa';
   margin-right: 6px;
 
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  // box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const RightSide = styled.div`
@@ -31,7 +31,7 @@ export const RightSide = styled.div`
   // background-color: '#fc3';
   margin-left: 6px;
 
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  // box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const GroupCards = styled.div`
