@@ -4,11 +4,12 @@ import SideNav from '../../components/sidenav';
 
 import { Container } from "./styles";
 
-export default function Main() {
+export default function Main(props) {
     return (
         <Container>
             <Header />
             <SideNav />
+            {props.children}
         </Container>
     );
 }

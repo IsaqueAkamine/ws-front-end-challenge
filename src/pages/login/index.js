@@ -12,7 +12,7 @@ function Login() {
   }
 
   return (
-    <div className="Login">
+    // <div className="Login">
       <Container>
         <Form onSubmit={handleSubmit}>
           {error && <p>{error}</p>}
@@ -30,7 +30,7 @@ function Login() {
           <Link to="/main">Fazer login</Link>
         </Form>
       </Container>
-    </div>
+    // </div>
   );
 }
 
