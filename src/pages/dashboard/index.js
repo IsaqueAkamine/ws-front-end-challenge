@@ -5,8 +5,8 @@ import { Container } from "./styles";
 function Dashboard() {
   return (
     <Container>
-      pagina dashboard
-      </Container>
+      <h1>Pagina dashboard</h1>
+    </Container>
   );
 }
 

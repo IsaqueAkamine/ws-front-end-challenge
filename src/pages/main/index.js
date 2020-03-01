@@ -2,14 +2,17 @@ import React from 'react';
 import Header from '../../components/header';
 import SideNav from '../../components/sidenav';
 
-import { Container } from "./styles";
+import { Container, Body } from "./styles";
 
 export default function Main(props) {
     return (
         <Container>
-            <Header />
-            <SideNav />
-            {props.children}
+            {/* <Header />
+            <Body>
+                <SideNav />
+                {props.children}
+            </Body> */}
+            {/* {props.children} */}
         </Container>
     );
 }
