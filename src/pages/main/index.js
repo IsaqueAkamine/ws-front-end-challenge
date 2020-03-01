@@ -4,7 +4,8 @@ import { Container, Body, LeftSide, RightSide, GroupCards } from "./styles";
 
 import UserCard from '../../components/usercard';
 import LocalCard from '../../components/localcard';
-import OpprtunityCard from '../../components/opportunitycard';
+import OpportunityCard from '../../components/opportunitycard';
+import LimitCard from '../../components/limitcard';
 
 export default function Main(props) {
     return (
@@ -16,7 +17,8 @@ export default function Main(props) {
                         <LocalCard />
                     </GroupCards>
                     <GroupCards>
-                        <OpprtunityCard />
+                        <OpportunityCard />
+                        <LimitCard />
                     </GroupCards>
                 </LeftSide>
                 <RightSide>

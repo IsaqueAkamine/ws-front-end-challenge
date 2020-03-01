@@ -39,7 +39,7 @@ export default function UserCard() {
         <Container>
             <Card variant="contained" color="primary" style={{ flex: 1, width: '100%' }}>
                 <div style={{ marginLeft: 12, marginRight: 12 }}>
-                    <p>Informações gerais</p>
+                    <p style={{ fontWeight: 'bold' }}>Informações gerais</p>
                     <UserDescriptionContainer>
                         <div style={{ display: 'flex', height: 60, width: 60, borderRadius: 30, backgroundColor: '#d3d3d3', justifyContent: 'center', alignItems: 'center', marginRight: 8 }}>
                             <Person style={{ color: '#fff', fontSize: 40 }} />

@@ -9,8 +9,7 @@ export const Container = styled.div`
   align-items: center;
   margin-right: 6px;
 
-
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0 8px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const NumberContainer = styled.div`

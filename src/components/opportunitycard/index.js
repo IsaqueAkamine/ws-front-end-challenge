@@ -12,7 +12,7 @@ import {
 } from "./styles";
 
 export default function OpportunityCard() {
-    //declaração de usuário padrão para exibir dados no card
+    //declaração de objeto padrão para exibir dados no card
     const opportunities_default = {
         earned_qtd: 4,
         earned_value: 20000,
@@ -37,7 +37,7 @@ export default function OpportunityCard() {
             <Card variant="contained" color="primary" style={{ flex: 1, width: '100%', paddingBottom: 20 }}>
                 <div style={{ marginLeft: 12, marginRight: 12 }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                        <p>Oportunidades ({opportunities_default.qtd_total})</p>
+                        <p style={{ fontWeight: 'bold' }}>Oportunidades ({opportunity.qtd_total})</p>
                         <Info style={{ color: '#424242', fontSize: 18 }} />
                     </div>
                     <div style={{ display: 'flex' }}>
