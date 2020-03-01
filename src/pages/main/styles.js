@@ -18,6 +18,7 @@ export const Body = styled.div`
 export const LeftSide = styled.div`
   display: flex;
   flex: 1;
+  flex-direction: column;
   // background-color: '#0fa';
   margin-right: 6px;
 
@@ -31,4 +32,9 @@ export const RightSide = styled.div`
   margin-left: 6px;
 
   box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+`;
+
+export const GroupCards = styled.div`
+  display: flex;
+  margin-top: 8px;
 `;

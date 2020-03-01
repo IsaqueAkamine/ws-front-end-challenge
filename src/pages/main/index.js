@@ -1,17 +1,23 @@
 import React from 'react';
 
-import { Container, Body, LeftSide, RightSide } from "./styles";
+import { Container, Body, LeftSide, RightSide, GroupCards } from "./styles";
 
 import UserCard from '../../components/usercard';
 import LocalCard from '../../components/localcard';
+import OpprtunityCard from '../../components/opportunitycard';
 
 export default function Main(props) {
     return (
         <Container>
             <Body>
                 <LeftSide>
-                    <UserCard />
-                    <LocalCard />
+                    <GroupCards >
+                        <UserCard />
+                        <LocalCard />
+                    </GroupCards>
+                    <GroupCards>
+                        <OpprtunityCard />
+                    </GroupCards>
                 </LeftSide>
                 <RightSide>
                     <UserCard />
