@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ws-front-end-challenge/static/css/main.c1fd7783.chunk.css",
+    "main.js": "/ws-front-end-challenge/static/js/main.674ee8f0.chunk.js",
+    "main.js.map": "/ws-front-end-challenge/static/js/main.674ee8f0.chunk.js.map",
+    "runtime-main.js": "/ws-front-end-challenge/static/js/runtime-main.f08c1245.js",
+    "runtime-main.js.map": "/ws-front-end-challenge/static/js/runtime-main.f08c1245.js.map",
+    "static/css/2.a641e29a.chunk.css": "/ws-front-end-challenge/static/css/2.a641e29a.chunk.css",
+    "static/js/2.a8cd84ee.chunk.js": "/ws-front-end-challenge/static/js/2.a8cd84ee.chunk.js",
+    "static/js/2.a8cd84ee.chunk.js.map": "/ws-front-end-challenge/static/js/2.a8cd84ee.chunk.js.map",
+    "index.html": "/ws-front-end-challenge/index.html",
+    "precache-manifest.abf010c137896c7d34ada645b03a1663.js": "/ws-front-end-challenge/precache-manifest.abf010c137896c7d34ada645b03a1663.js",
+    "service-worker.js": "/ws-front-end-challenge/service-worker.js",
+    "static/css/2.a641e29a.chunk.css.map": "/ws-front-end-challenge/static/css/2.a641e29a.chunk.css.map",
+    "static/css/main.c1fd7783.chunk.css.map": "/ws-front-end-challenge/static/css/main.c1fd7783.chunk.css.map",
+    "static/js/2.a8cd84ee.chunk.js.LICENSE.txt": "/ws-front-end-challenge/static/js/2.a8cd84ee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f08c1245.js",
+    "static/css/2.a641e29a.chunk.css",
+    "static/js/2.a8cd84ee.chunk.js",
+    "static/css/main.c1fd7783.chunk.css",
+    "static/js/main.674ee8f0.chunk.js"
+  ]
+}
