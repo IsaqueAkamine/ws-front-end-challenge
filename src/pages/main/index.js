@@ -8,6 +8,7 @@ import OpportunityCard from '../../components/opportunitycard';
 import LimitCard from '../../components/limitcard';
 import SalesCard from '../../components/salescard';
 import FinancialSecuritiesCard from '../../components/financialsecuritiescard';
+import ActivityCard from '../../components/activitycard';
 
 export default function Main(props) {
     return (
@@ -28,7 +29,7 @@ export default function Main(props) {
                     </GroupCards>
                 </LeftSide>
                 <RightSide>
-                    <UserCard />
+                    <ActivityCard />
                 </RightSide>
             </Body>
         </Container>

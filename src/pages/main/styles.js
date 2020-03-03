@@ -29,6 +29,7 @@ export const RightSide = styled.div`
   display: flex;
   flex: 1;
   // background-color: '#fc3';
+  margin-top: 8px;
   margin-left: 6px;
 
   // box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);

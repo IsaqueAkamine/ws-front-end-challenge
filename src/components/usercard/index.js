@@ -37,7 +37,7 @@ export default function UserCard() {
 
     return (
         <Container>
-            <Card variant="contained" color="primary" style={{ flex: 1, width: '100%' }}>
+            <Card variant="contained" color="primary" style={{ paddingBottom: 8, width: '100%' }}>
                 <div style={{ marginLeft: 12, marginRight: 12 }}>
                     <p style={{ fontWeight: 'bold' }}>Informações gerais</p>
                     <UserDescriptionContainer>

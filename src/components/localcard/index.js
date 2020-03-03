@@ -49,12 +49,10 @@ export default function LocalCard(props) {
                     style={{ justifyContent: 'center', padding: 90 }}
                 />
                 :
-                <Card variant="contained" color="primary" style={{ flex: 1, width: '100%', paddingBottom: 20 }}>
-                    <div style={{ marginLeft: 12, marginRight: 12 }}>
+                <Card variant="contained" color="primary" style={{ display: 'flex', flex: 1, width: '100%', paddingBottom: 20 }}>
+                    <div style={{ display: 'flex', flex: 1, flexDirection: 'column', marginLeft: 12, marginRight: 12 }}>
                         <p style={{ fontWeight: 'bold' }}>Local</p>
-
-                        {/* <div style={{ height: '100vh', width: '100%' }}> */}
-                        <div style={{ height: '250px', width: '100%' }}>
+                        <div style={{ display: 'flex', flex: 1, width: '100%' }}>
                             <GoogleMapReact
                                 bootstrapURLKeys={{ key: API_KEY }}
                                 defaultCenter={center}
