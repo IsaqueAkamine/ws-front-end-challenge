@@ -17,7 +17,8 @@ export default function Main(props) {
                 <LeftSide>
                     <GroupCards >
                         <UserCard />
-                        <LocalCard />
+                        <UserCard />
+                        {/* <LocalCard /> */}
                     </GroupCards>
                     <GroupCards>
                         <OpportunityCard />
