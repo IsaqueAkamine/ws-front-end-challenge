@@ -17,10 +17,11 @@ import SideNav from './components/sidenav';
 
 const Routes = () => (
     <BrowserRouter>
-        <Switch>
+        <Mains />
+        {/* <Switch>
             <Route exact path="/" component={Login} />
             <Mains />
-        </Switch>
+        </Switch> */}
     </BrowserRouter>
 );
 
@@ -33,7 +34,7 @@ function Mains() {
             <SideNav />
             <div style={{ position: 'absolute', top: 50, bottom: 0, left: 60, right: 0 }}>
                 <Switch>
-                    <Route path="/main">
+                    <Route path="/ws-front-end-challenge">
                         <Main />
                     </Route>
                     <Route path="/dashboard">

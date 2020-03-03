@@ -12,7 +12,7 @@ import { Container } from "./styles";
 function SideNav() {
     return (
         <Container >
-            <Link to={'/main'}><SearchIcon style={{ color: "#737373", paddingTop: 8, paddingBottom: 8 }} /></Link>
+            <Link to={'/ws-front-end-challenge'}><SearchIcon style={{ color: "#737373", paddingTop: 8, paddingBottom: 8 }} /></Link>
             <Link to={'/dashboard'}><PersonOutlineOutlined style={{ color: "#737373", paddingTop: 8, paddingBottom: 8 }} /></Link>
             <Link to={'/menupage'}><EventOutlined style={{ color: "#737373", paddingTop: 8, paddingBottom: 8 }} /></Link>
             <LocalOfferOutlined style={{ color: "#737373", paddingTop: 8, paddingBottom: 8 }} />
