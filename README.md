@@ -8,9 +8,9 @@ You will also see any lint errors in the console.
 
 ## `Libs utilizadas` 
 
--Material-ui
--Styled-components
--Google-map-react
+-Material-ui<br />
+-Styled-components<br />
+-Google-map-react<br />
 -React-vertical-timeline-component
 
 ### `Navegação`
@@ -23,7 +23,7 @@ Adicionado Googlemaps com geolocalização do browser
 Utilizado lib para exibir timeline animada.
 
 ### `Versionamento`
--Criado repositório.
-    *Branch master.
-    *Branch maps (pull request para master)
-    *Branch timeline (feito merge para master)
+-Criado repositório.<br />
+    *Branch master.<br />
+    *Branch maps (pull request para master)<br />
+    *Branch timeline (feito merge para master)<br />
