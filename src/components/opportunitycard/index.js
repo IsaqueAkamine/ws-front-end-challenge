@@ -81,7 +81,7 @@ export default function OpportunityCard() {
                         </div>
                     </div>
                 </div>
-                <text style={{ display: 'flex', marginTop: 15, marginLeft: 35, color: '#227bd3', fontWeight: 'bold' }}>VER TODAS OPORTUNIDADES</text>
+                <text style={{ display: 'flex', marginTop: 15, marginLeft: 35, color: '#227bd3', fontWeight: 'bold', fontSize: 14 }}>VER TODAS OPORTUNIDADES</text>
             </Card>
         </Container>
     );
